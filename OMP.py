@@ -1,7 +1,6 @@
 import numpy as np
 import copy
 
-
 def LSFit(A, y):
     return np.matmul(np.linalg.inv(np.matmul(A.T, A)), np.matmul(A.T, y))
 
